@@ -24,9 +24,9 @@ This is my Module 8 calculator web application. It uses FastAPI for the API and 
 - `app/operations.py` has the calculator functions.
 - `templates/index.html` has the calculator web page.
 - `static/calculator.js` has the browser interaction code.
-- `tests/unit/test_operations.py` has unit tests.
-- `tests/integration/test_api.py` has integration tests for the API.
-- `tests/e2e/test_e2e.py` has the Playwright browser test.
+- `test_operations.py` has unit tests.
+- `test_api.py` has integration tests for the API.
+- `test_e2e.py` has the Playwright browser test.
 - `.github/workflows/ci.yml` runs the tests in GitHub Actions.
 - `Dockerfile` can build the app container.
 - `docker-compose.yml` includes the web app, PostgreSQL, and Redis services.
