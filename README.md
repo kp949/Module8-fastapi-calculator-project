@@ -19,7 +19,6 @@ This is my Module 8 calculator web application. It uses FastAPI for the API and 
 
 ## Project Files
 
-- `app/main.py` has the FastAPI app and routes.
 - `main.py` has the FastAPI app and routes.
 - `app/operations.py` has the calculator functions.
 - `templates/index.html` has the calculator web page.
@@ -63,14 +62,6 @@ Run tests:
 
 ```powershell
 pytest
-```
-
-Run tests by group:
-
-```powershell
-pytest tests/unit
-pytest tests/integration
-pytest tests/e2e
 ```
 
 Run with Docker Compose:
